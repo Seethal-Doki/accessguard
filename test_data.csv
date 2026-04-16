@@ -1,0 +1,5 @@
+username,password,expected_result,test_description
+tomsmith,SuperSecretPassword!,success,Valid credentials should login successfully
+wronguser,wrongpassword,failure,Invalid username should be rejected
+tomsmith,wrongpassword,failure,Wrong password should be rejected
+,SuperSecretPassword!,failure,Empty username should be rejected
