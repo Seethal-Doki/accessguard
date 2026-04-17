@@ -66,7 +66,7 @@ pytest tests/test_access_validation.py::TestAccessValidation::test_readonly_cann
 
 ## 🤖 AI Integration
 This framework is designed to integrate with AI-powered testing 
-tools like Infosys TOPAZ for:
+for:
 - Automated test case generation
 - Intelligent test prioritization  
 - Predictive defect detection
